@@ -4,15 +4,99 @@
     <meta charset="UTF-8">
 	<title>Online Profile - Matthew Scott</title>
     <link rel="stylesheet" href="styles.css">
-	
+	<!--Matthew Scott
+		Online Profile
+		2024-->
 	</head>
 	<body>
+	<section id="titlesection">
 		<header>
 			<h1 id="title">Matthew Scott</h1>
-	</body>
-	<section>
-	<h1 id="header">About Me</h1>
-	<p>Hi, I'm Matthew Scott</p>
-	<img src="matthew.jpg" alt="Matthew Scott" style="float:right"> <!--still looking for an image of me -->
+		</header>
 	</section>
+	<br id="topbreak">
+	<section id="introduction">
+	<img src="matthew.jpg" id="matthew" alt="Matthew Scott"> <!--i know it's not a good image but i couldnt find any others of me -->
+	<h1 id="header">About Me</h1>
+	<p>Hi, I'm Matthew Scott. I'm Currently studying Computer Science at the Ozarks Technical Community College for about a year now. Right now I'm learning Web Development and this website is supposed to be a show of what i know.
+	</p>
+
+	</section>
+		<section id="titlesection">
+			<h1 id="title">Education</h1>
+	</section>
+	<section>
+	<img src="rshs.png" alt="Reeds Spring High School" width="100" height="100" style="float:left">
+	<h1 id="header">Reeds Spring High School</h1>
+	<p>	2019 - 2023</p>
+	<br>
+	<img src="gtc.png" alt="Gibson Technical Center" width="100" height="100" style="float:left">
+	<h1 id="header">Gibson Technical Center</h1>
+	<p>	2021 - 2023</p>
+	<p>CompTIA PC Pro Certification</p>
+	<p>CompTIA CyberDefense Pro Certification</p>
+	<br>
+	<img src="otc.jpg" alt="Ozarks Technical Community College" width="100" height="100" style="float:left">	
+	<h1 id="header">Ozarks Technical Community College</h1>
+	<p>	2023 - Current</p>
+	
+	</section>
+	<section id="titlesection">
+			<h1 id="title">Contact Me</h1>
+	</section>
+	<section>
+	<legend>
+	Times Available
+	</legend>
+	
+	 <table>
+	<tr>
+		<th>Sunday</th>
+		<th>Monday-Friday</th>
+		<th>Saturday</th>
+	</tr>
+	<tr>
+		<td>Not Available</td>
+		<td>10:00am - 6:00pm</td>
+		<td>9:00am - 9:00pm</td>
+	</tr>
+	</table> 
+
+	<legend>
+	Contact Information
+	</legend>
+	<br>
+	<label for="fname">
+		Name:
+		<input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+	</label>
+	<br>
+	<label for="lname">
+	Last Name:
+		<input type="text" name="lname" id="lname" required placeholder="last Name" />
+	</label>
+	<br>
+	<label for="email">
+	Email:
+		<input type="email" name="email" id="email" required placeholder="Email" />
+	</label>
+	<br>
+	<br>
+	<input class="submit" onclick="displayText()" type="submit" value="Submit" />
+	<div id="textField" style="display: none;">
+	Thank you. I'll be in contact at the earliest convenience.
+	</div>
+	<section>
+	<script>
+	function displayText() {
+	var text = document.getElementById("textField");
+	text.style.display = "block";
+	}
+	</script>
+	<br>
+	<footer>
+    <p>&copy; 2024 Matthew Scott. All rights reserved.</p>
+    </footer>
+
+	</body>
 </html>

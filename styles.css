@@ -1,0 +1,106 @@
+
+
+
+/*Matthew Scott
+Online Profile
+2024	*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+	background-color: gray;
+	position: relative;
+    padding-bottom: 100px;
+}
+
+Section {
+	margin: auto;
+	width: 75%;
+	background-color: white;
+	border-radius: 15px;
+	padding:15px;
+
+	
+
+}
+p {
+	text-indent: 3em;
+	}
+
+#matthew {
+	float: right;
+}
+
+#title {
+	text-align: center;
+	font-size: 50px;
+
+}
+#topbreak {
+	padding: 5px;
+}
+
+#titlesection {
+	width: 25%;
+	padding: 0px;
+
+}
+
+.submit {
+	width: 10%;
+}
+
+table {
+	width:50%;
+	margin: auto;
+}
+
+footer {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+	padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+label {
+	font-size: 20px;
+}
+
+#email {
+	width: 40%;
+}
+
+#introduction {
+	padding-bottom: 100px;
+}
+
+#introduction h1 {
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	#title {
+		font-size: 24px;
+	}
+	
+    #matthew {
+		display:block;
+		float:none;
+		margin: auto;
+	}
+
+    #introduction h1 {
+        font-size: 1.5em;
+	}
+
+    #introduction p {
+        font-size: 0.9em;
+	}
+}
