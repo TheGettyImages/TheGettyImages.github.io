@@ -9,9 +9,9 @@
 		2024-->
 	</head>
 	<body>
-	<section id="titlesection">
+	<section class="titlesection">
 		<header>
-			<h1 id="title">Matthew Scott</h1>
+			<h1 class="title">Matthew Scott</h1>
 		</header>
 	</section>
 	<br id="topbreak">
@@ -22,32 +22,32 @@
 	</p>
 
 	</section>
-		<section id="titlesection">
-			<h1 id="title">Education</h1>
+		<section class="titlesection">
+			<h1 class="title">Education</h1>
 	</section>
 	<section>
 	<img src="rshs.png" alt="Reeds Spring High School" width="100" height="100" style="float:left">
-	<h1 id="header">Reeds Spring High School</h1>
+	<h1 class="header">Reeds Spring High School</h1>
 	<p>	2019 - 2023</p>
 	<br>
 	<img src="gtc.png" alt="Gibson Technical Center" width="100" height="100" style="float:left">
-	<h1 id="header">Gibson Technical Center</h1>
+	<h1 class="header">Gibson Technical Center</h1>
 	<p>	2021 - 2023</p>
 	<p>CompTIA PC Pro Certification</p>
 	<p>CompTIA CyberDefense Pro Certification</p>
 	<br>
 	<img src="otc.jpg" alt="Ozarks Technical Community College" width="100" height="100" style="float:left">	
-	<h1 id="header">Ozarks Technical Community College</h1>
+	<h1 class="header">Ozarks Technical Community College</h1>
 	<p>	2023 - Current</p>
 	
 	</section>
-	<section id="titlesection">
-			<h1 id="title">Contact Me</h1>
+	<section class="titlesection">
+			<h1 class="title">Contact Me</h1>
 	</section>
 	<section>
-	<legend>
+	<h2>
 	Times Available
-	</legend>
+	</h2>
 	
 	 <table>
 	<tr>
@@ -62,38 +62,38 @@
 	</tr>
 	</table> 
 
-	<legend>
-	Contact Information
-	</legend>
+	<h2>
+	Email form
+	</h2>
 	<br>
 	<label for="fname">
 		Name:
-		<input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+		<input autofocus type="text" name="fname" id="fname" required placeholder="First Name" >
 	</label>
 	<br>
 	<label for="lname">
 	Last Name:
-		<input type="text" name="lname" id="lname" required placeholder="last Name" />
+		<input type="text" name="lname" id="lname" required placeholder="last Name" >
 	</label>
 	<br>
 	<label for="email">
 	Email:
-		<input type="email" name="email" id="email" required placeholder="Email" />
+		<input type="email" name="email" id="email" required placeholder="Email" >
 	</label>
 	<br>
 	<br>
-	<input class="submit" onclick="displayText()" type="submit" value="Submit" />
+	<input class="submit" onclick="displayText()" type="submit" value="Submit" >
 	<div id="textField" style="display: none;">
 	Thank you. I'll be in contact at the earliest convenience.
 	</div>
-	<section>
+	</section>
 	<script>
 	function displayText() {
 	var text = document.getElementById("textField");
 	text.style.display = "block";
 	}
 	</script>
-	<br>
+	
 	<footer>
     <p>&copy; 2024 Matthew Scott. All rights reserved.</p>
     </footer>
